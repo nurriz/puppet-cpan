@@ -37,6 +37,7 @@ class cpan (
   $config_template   = $cpan::params::config_template,
   $config_hash       = $cpan::params::config_hash,
   $package_ensure    = $cpan::params::package_ensure,
+  $http_proxy        = $cpan::params::http_proxy,
 ) inherits cpan::params {
 
   validate_bool($manage_config)
